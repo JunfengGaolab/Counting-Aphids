@@ -1,19 +1,37 @@
 
-# Automatic aphid counting base on improved Yolov5
+# A novel hybrid network based on deep learning for the automatic peach-potato aphid counting in sugar beet fields
 
 
-<img src="https://github.com/JunfengGaolab/Aphid-recognition-and-counting-/blob/main/Automatic%20aphid%20counting%20base%20on%20improved%20Yolov5/demo_data/2(328).jpg" width="240" height="240"><img src="https://github.com/JunfengGaolab/Aphid-recognition-and-counting-/blob/main/Automatic%20aphid%20counting%20base%20on%20improved%20Yolov5/demo_data/2(185).jpg" width="240" height="240"><img src="https://github.com/JunfengGaolab/Aphid-recognition-and-counting-/blob/main/Automatic%20aphid%20counting%20base%20on%20improved%20Yolov5/demo_data/2(189).jpg" width="240" height="240"><img src="https://github.com/JunfengGaolab/Aphid-recognition-and-counting-/blob/main/Automatic%20aphid%20counting%20base%20on%20improved%20Yolov5/demo_data/2(190).jpg" width="240" height="240"/>
+
+<p align="center">
+  <img src="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023/blob/main/Automatic_aphid_counting/demo_data/overview-V4.jpg" width="500" height="1000"" />
+</p>
+
+<p align="center">
+Overview of our proposed automatic peach-potato aphid counting network architecture
+</p>\
+
+
+
+
+<p align="center">
+<img src="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023/blob/main/Automatic_aphid_counting/demo_data/visualization_final.jpg" width="1200" height="1200"> 
+</p>
+
+Visualisation of peach-potato aphid counting results using different networks (a) Original images with true bounding boxes. (b) The counting results by Yolov5. (c) The counting results by the improved Yolov5. (d) The counting results by CSRNet. (e) The counting results by our proposed automatic peach-potato aphid counting network. 
 
 
 
 ## Overview
-Aphids can cause direct damage and indirect virus transmission to crops. Timely monitoring the number of aphids and cutting off the transmission source can prevent the large-scale outbreak of aphids. However, the manual counting of aphids which is commonly used at present is inefficient. Therefore, we proposed an automatic aphid counting method based on yellow water pan trap imagery and deep learning. Our proposed method is the improved Yolov5. The improvements mainly include four aspects: a) insert deformable convolution in backbone, b) add small object detection layer, c) split-merge detection strategy, d) soft-NMS post-processing. They mainly focus on the two major difficulties in the aphid counting task, aphids are very small in shape and aphids are sometimes densely distributed. Through the experiments, we found that the mAP of our proposed method on the aphid test set is 64.6%, which is 4.7% higher than that of original Yolov5. So, we conclude that our proposed method is superior to the original Yolov5 in the aphid counting task. Especially for extremely small aphids and densely distributed aphids, the detection and counting effect of our proposed method is obviously better than the original Yolov5.
+Peach-potato aphids are efficient vectors to transmit virus yellows in sugar beet fields. Timely monitoring and control of their populations are thus critical to prevent the large-scale outbreak of virus yellows. However, the manual counting of peach-potato aphids, which is the most common practice, is labour-intensive and time-consuming. Additionally, two biggest challenges in peach-potato aphid counting are that peach-potato aphids are small objects and their density distributions are varied in different areas of the field. To address these challenges, we proposed a hybrid automatic peach-potato aphid counting network architecture which integrates the detection network and the density map estimation network. When the distribution density of peach-potato aphids is low, it utilizes an improved Yolov5 to count aphids. Conversely, when the distribution density of peach-potato aphids is high, it switches to CSRNet to count aphids. To the best of our knowledge, this is the first framework integrating the detection network and the density map estimation network for counting tasks. Through comparison experiments of counting peach-potato aphids on the test set of the standard peach-potato aphid dataset, it verified that our proposed approach achieves the lowest MAE and RMSE among all compared methods, with values of 2.93 and 4.01, respectively. Moreover, the AP of the improved Yolov5 is 5% higher than that of the original Yolov5. Especially for extremely small peach-potato aphids and densely distributed peach-potato aphids, the detection performance of the improved Yolov5 is significantly better than the original Yolov5.
 
 
 
 ## Prerequisites
 
-This work is based on https://github.com/ultralytics/yolov5. 
+This work is based on https://github.com/ultralytics/yolov5.
+
+As space limitation and file size limitation, datasets and some of trained models are uplaoded to Google drive. Please download datasets and trained models by the links which has already included in the relevent files named README.md.
 
 
 
@@ -194,14 +212,14 @@ Please note that we have two datasets (aphid_dataset_1,aphid_dataset_2), before 
 
 if you train aphid_dataset_1,
 
-(1) mofify 'CSRNet-pytorch-master/Shanghai/part_A_final_aphid_dataset_1' to 'CSRNet-pytorch-master/Shanghai/part_A_final'
+(1) modify 'CSRNet-pytorch-master/Shanghai/part_A_final_aphid_dataset_1' to 'CSRNet-pytorch-master/Shanghai/part_A_final'
 
 (2) copy three json file from 'CSRNet-pytorch-master/aphid_dataset_1_json' to 'CSRNet-pytorch-master/'
 
 
 if you train aphid_dataset_2,
 
-(1) mofify 'CSRNet-pytorch-master/Shanghai/part_A_final_aphid_dataset_2' to 'CSRNet-pytorch-master/Shanghai/part_A_final'
+(1) modify 'CSRNet-pytorch-master/Shanghai/part_A_final_aphid_dataset_2' to 'CSRNet-pytorch-master/Shanghai/part_A_final'
 
 (2) copy three json file from 'CSRNet-pytorch-master/aphid_dataset_2_json' to 'CSRNet-pytorch-master/'
 
