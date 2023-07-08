@@ -1,2 +1,4 @@
-# Automatic_aphid_counting
-Automatic_aphid_counting
+# Counting-Aphids
+
+Counting-Aphids
+
