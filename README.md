@@ -1,4 +1,3 @@
 # Counting-Aphids
 
-Counting-Aphids
 
