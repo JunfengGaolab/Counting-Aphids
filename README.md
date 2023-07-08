@@ -1,2 +1,2 @@
-# Automatic_aphid_counting___2023
-Automatic_aphid_counting___2023
+# Automatic_aphid_counting
+Automatic_aphid_counting
