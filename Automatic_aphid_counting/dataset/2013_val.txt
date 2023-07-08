@@ -1,0 +1,16 @@
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_98_1.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_36_4.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_96_4.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_27_1.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_212_4.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_234_1.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_344_4.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_270_1.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_223_2.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_270_4.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_234_2.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_304_2.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_186_3.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_270_2.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_224_3.jpg
+/home/xumin/Downloads/Automatic_aphid_counting/Automatic_aphid_counting/dataset/voc2013/JPEGImages/IMG_270_3.jpg
