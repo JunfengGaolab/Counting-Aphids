@@ -1,5 +1,5 @@
 
-# A novel hybrid network based on deep learning for the automatic peach-potato aphid counting in sugar beet fields
+# A novel hybrid network based on deep learning for the automatic aphid counting in sugar beet fields
 
 
 
