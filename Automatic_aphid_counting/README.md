@@ -19,7 +19,6 @@ Overview of our proposed automatic aphid counting network architecture
 <p align="center">
 <img src="https://github.com/JunfengGaolab/Counting-Aphids/blob/main/Automatic_aphid_counting/demo_data/visualization_final.jpg" width="1000" height="1000"> 
 </p>
-<br/>
 
 
 Visualisation of aphid counting results using different networks (a) Original images with true bounding boxes. (b) The counting results by Yolov5. (c) The counting results by the improved Yolov5. (d) The counting results by CSRNet. (e) The counting results by our proposed automatic aphid counting network. 
