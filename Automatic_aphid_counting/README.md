@@ -1,5 +1,5 @@
 
-# A novel hybrid network based on deep learning for the automatic aphid counting in sugar beet fields
+# A novel hybrid network based on deep learning for automatic aphid counting in sugar beet fields
 
 
 
@@ -22,7 +22,7 @@ Overview of our proposed automatic aphid counting network architecture
 <br/>
 
 
-Visualisation of aphid counting results using different networks (a) Original images with true bounding boxes. (b) The counting results by Yolov5. (c) The counting results by the improved Yolov5. (d) The counting results by CSRNet. (e) The counting results by our proposed automatic peach-potato aphid counting network. 
+Visualisation of aphid counting results using different networks (a) Original images with true bounding boxes. (b) The counting results by Yolov5. (c) The counting results by the improved Yolov5. (d) The counting results by CSRNet. (e) The counting results by our proposed automatic aphid counting network. 
 
 
 
