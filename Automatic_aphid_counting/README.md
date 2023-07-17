@@ -245,6 +245,6 @@ Please refer to '*4. Hybrid_network test*', you can use 'hybird_network_image.py
    
 
 ## Contact
-If you have any issue, please contact us.
+If you have any issues, please contact us with email jugao@lincoln.ac.uk.
 
 
