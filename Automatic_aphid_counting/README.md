@@ -1,5 +1,5 @@
 
-# Advancing Early Detection of Virus Yellows Risk: Creating a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields
+# <p align="center"> Advancing Early Detection of Virus Yellows Risk: Creating a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields </p>
 
 
 
