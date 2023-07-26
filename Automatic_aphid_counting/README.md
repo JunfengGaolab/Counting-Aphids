@@ -1,5 +1,5 @@
 
-# A novel hybrid network based on deep learning for automatic aphid counting in sugar beet fields
+# Advancing Early Detection of Virus Yellows Risk: Creating a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields
 
 
 
