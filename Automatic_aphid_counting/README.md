@@ -1,5 +1,5 @@
 
-# <p align="center"> Advancing Early Detection of Virus Yellows Risk: Creating a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields </p>
+# <p align="center"> Advancing Early Detection of Virus Yellows: Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields </p>
 
 
 
@@ -242,7 +242,14 @@ Please refer to '*4. Hybrid_network test*', you can use 'hybird_network_image.py
 `python hybird_network_test.py --data data/aphid_voc.yaml --weights ./runs/train/yolov5s-2-DCN2-low/weights/best.pt --device '0' --batch-size 1` # Test on the test set
 
 `python hybird_network_test_Thresholds_Figure.py --data data/aphid_voc.yaml --weights ./runs/train/yolov5s-2-DCN2-low/weights/best.pt --device '0' --batch-size 1` # vary T from 0 to 200 with an interval of 5 and carry out counting test to get the optimal T
-   
+
+## Citation
+@misc{2308.05257,
+Author = {Xumin Gao and Wenxin Xue and Callum Lennox and Mark Stevens and Junfeng Gao},
+Title = {Advancing Early Detection of Virus Yellows: Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields},
+Year = {2023},
+Eprint = {arXiv:2308.05257},
+}
 
 ## Contact
 If you have any issues, please contact us with email jugao@lincoln.ac.uk.
