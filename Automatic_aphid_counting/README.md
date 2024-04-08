@@ -1,10 +1,10 @@
 
-# <p align="center"> Advancing Early Detection of Virus Yellows: Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields </p>
+# <p align="center"> Developing a hybrid convolutional neural network for automatic aphid counting in sugar beet fields </p>
 
 
 
 <p align="center">
-  <img src="https://github.com/JunfengGaolab/Counting-Aphids/blob/main/Automatic_aphid_counting/demo_data/overview-V4.jpg" width="500" height="1000"">
+  <img src="https://github.com/JunfengGaolab/Counting-Aphids/blob/main/Automatic_aphid_counting/demo_data/Fig.%205.%20Overview%20of%20our%20proposed%20automatic%20aphid%20counting%20network%20architecture.jpg" width="500" height="1000"">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Overview of our proposed automatic aphid counting network architecture
 
 
 <p align="center">
-<img src="https://github.com/JunfengGaolab/Counting-Aphids/blob/main/Automatic_aphid_counting/demo_data/visualization_final.jpg" width="1000" height="1000"> 
+<img src="https://github.com/JunfengGaolab/Counting-Aphids/blob/main/Automatic_aphid_counting/demo_data/Fig.%2012.%20Visualisation%20of%20aphid%20counting%20results%20using%20different%20networks%20on%20various%20sample%20images%20with%20varying%20aphid%20distribution%20densities.jpg" width="1000" height="1000"> 
 </p>
 
 
@@ -26,7 +26,7 @@ Visualisation of aphid counting results using different networks (a) Original im
 
 
 ## Overview
-Aphids are efficient vectors to transmit virus yellows in sugar beet fields. Timely monitoring and control of their populations are thus critical to prevent the large-scale outbreak of virus yellows. However, the manual counting of aphids, which is the most common practice, is labour-intensive and time-consuming. Additionally, two biggest challenges in aphid counting are that aphids are small objects and their density distributions are varied in different areas of the field. To address these challenges, we proposed a hybrid automatic aphid counting network architecture which integrates the detection network and the density map estimation network. When the distribution density of aphids is low, it utilizes an improved Yolov5 to count aphids. Conversely, when the distribution density of aphids is high, it switches to CSRNet to count aphids. To the best of our knowledge, this is the first framework integrating the detection network and the density map estimation network for counting tasks. Through comparison experiments of counting aphids, it verified that our proposed approach outperforms all other methods in counting aphids. It achieved the lowest MAE and RMSE values for both the standard and high-density aphid datasets: 2.93 and 4.01 (standard), and 34.19 and 38.66 (high-density), respectively. Moreover, the AP of the improved Yolov5 is 5% higher than that of the original Yolov5. Especially for extremely small aphids and densely distributed aphids, the detection performance of the improved Yolov5 is significantly better than the original Yolov5. The datasets and project code are released at: https://github.com/JunfengGaolab/Counting-Aphids.
+Aphids can cause direct damage and indirect virus transmission to crops. Timely monitoring and control of their populations are thus critical. However, the manual counting of aphids, which is the most common practice, is labor-intensive and time-consuming. Additionally, two of the biggest challenges in aphid counting are that aphids are small objects and their density distributions are varied in different areas of the field. To address these challenges, we proposed a hybrid automatic aphid counting network architecture which integrates the detection network and the density map estimation network. When the distribution density of aphids is low, it utilizes an improved Yolov5 to count aphids. Conversely, when the distribution density of aphids is high, it switches to CSRNet to count aphids. To the best of our knowledge, this is the first framework integrating the detection network and the density map estimation network for counting tasks. Through comparison experiments of counting aphids, it verified that our proposed approach outperforms all other methods in counting aphids. It achieved the lowest MAE and RMSE values for both the standard and high-density aphid datasets: 2.93 and 4.01 (standard), and 34.19 and 38.66 (high-density), respectively. Moreover, the AP of the improved Yolov5 is 5% higher than that of the original Yolov5. Especially for extremely small aphids and densely distributed aphids, the detection performance of the improved Yolov5 is significantly better than the original Yolov5. This work provides an effective early warning caused by aphids in sugar beet fields, offering protection for sugar beet growth and ensuring sugar beet yield. The datasets and project code are released at: https://github.com/JunfengGaolab/Counting-Aphids.
 
 
 
@@ -244,12 +244,7 @@ Please refer to '*4. Hybrid_network test*', you can use 'hybird_network_image.py
 `python hybird_network_test_Thresholds_Figure.py --data data/aphid_voc.yaml --weights ./runs/train/yolov5s-2-DCN2-low/weights/best.pt --device '0' --batch-size 1` # vary T from 0 to 200 with an interval of 5 and carry out counting test to get the optimal T
 
 ## Citation
-@misc{2308.05257,
-Author = {Xumin Gao and Wenxin Xue and Callum Lennox and Mark Stevens and Junfeng Gao},
-Title = {Advancing Early Detection of Virus Yellows: Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields},
-Year = {2023},
-Eprint = {arXiv:2308.05257},
-}
+Gao, X., Xue, W., Lennox, C., Stevens, M. and Gao, J., 2024. Developing a hybrid convolutional neural network for automatic aphid counting in sugar beet fields. Computers and Electronics in Agriculture, 220, p.108910.
 
 ## Contact
 If you have any issues, please contact us with email jugao@lincoln.ac.uk.
